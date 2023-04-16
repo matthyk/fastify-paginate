@@ -2,7 +2,8 @@
   "name": "fastify-paginate",
   "version": "0.1.0",
   "description": "pagination plugin for fastify",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest -c jest.config.js --coverage",
     "format:write": "prettier --write \"src/**/*.ts\" \"__test__/**/*.ts\"",
